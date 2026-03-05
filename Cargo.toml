@@ -1,0 +1,9 @@
+[package]
+name = "fork_rng_poc"
+description = "Test to see how forking a process can break thread_rng"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libc = "0.2.182"
+rand = "0.8.0"
